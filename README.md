@@ -57,4 +57,9 @@ Add below links on your master layout head part.
 </script>
 
 Step 3:
-Now go to your controller
+Now go to your controller and add alert 
+
+return redirect()->back()->with('message', __('Brand has been deleted.'));
+return redirect()->back()->with('error', __('Please try again.'));
+
+
