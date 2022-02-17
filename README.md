@@ -4,6 +4,7 @@ Step 1:
 Add below links on your master layout head part.
 <head>
   {{-- toster --}}
+	
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-
      alpha/css/bootstrap.css" rel="stylesheet">
 
