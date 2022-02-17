@@ -2,6 +2,7 @@
 Here you can find setup toastr for alert in your project.
 Step 1: 
 Add below links on your master layout head part.
+```html
 <head>
   {{-- toster --}}
 	
@@ -16,9 +17,10 @@ Add below links on your master layout head part.
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
   {{-- /toster --}}
  </head>
- 
+ ```
  Step 2:
  Add below scripts on your master layout body part.
+ ```html
  <script>
   @if(Session::has('message'))
   toastr.options =
@@ -56,11 +58,11 @@ Add below links on your master layout head part.
   		toastr.warning("{{ session('warning') }}");
   @endif
 </script>
-
+```
 Step 3:
 Now go to your controller and add alert 
-
+```php
 return redirect()->back()->with('message', __('Brand has been deleted.'));
 return redirect()->back()->with('error', __('Please try again.'));
-
+```
 
