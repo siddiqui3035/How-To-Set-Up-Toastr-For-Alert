@@ -1,7 +1,15 @@
-# How-To-Set-Up-Toastr-For-Alert
-Here you can find setup toastr for alert in your project.
-Step 1: 
-Add below links on your master layout head part.
+###### How-To-Set-Up-Toastr-For-Alert:
+
+##### About Package:
+
+Follow below steps and add toastr in your laravel project for show your notification in message.
+
+#### Here you can find setup toastr for alert in your project.
+
+### Step 1: 
+
+## Add below links on your master layout head part;
+
 ```html
 <head>
   {{-- toster --}}
@@ -18,8 +26,10 @@ Add below links on your master layout head part.
   {{-- /toster --}}
  </head>
  ```
- Step 2:
- Add below scripts on your master layout body part.
+ ### Step 2:
+ 
+ ## Add below scripts on your master layout body part;
+ 
  ```html
  <script>
   @if(Session::has('message'))
@@ -59,10 +69,14 @@ Add below links on your master layout head part.
   @endif
 </script>
 ```
-Step 3:
-Now go to your controller and add alert 
+### Step 3:
+
+## Now go to your controller and add alert;
+
 ```php
+
 return redirect()->back()->with('message', __('Brand has been deleted.'));
 return redirect()->back()->with('error', __('Please try again.'));
+
 ```
 
