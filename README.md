@@ -1,12 +1,12 @@
-###### How-To-Set-Up-Toastr-For-Alert:
+## How-To-Set-Up-Toastr-For-Alert:
 
-##### About Package:
+## About Package:
 
 Follow below steps and add toastr in your laravel project for show your notification in message.
 
-#### Here you can find setup toastr for alert in your project.
+## Here you can find setup toastr for alert in your project.
 
-### Step 1: 
+## Step 1: 
 
 ## Add below links on your master layout head part;
 
@@ -26,7 +26,7 @@ Follow below steps and add toastr in your laravel project for show your notifica
   {{-- /toster --}}
  </head>
  ```
- ### Step 2:
+ ## Step 2:
  
  ## Add below scripts on your master layout body part;
  
@@ -69,7 +69,7 @@ Follow below steps and add toastr in your laravel project for show your notifica
   @endif
 </script>
 ```
-### Step 3:
+## Step 3:
 
 ## Now go to your controller and add alert;
 
